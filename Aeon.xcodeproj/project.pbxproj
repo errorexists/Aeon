@@ -10,6 +10,22 @@
 		CFF9DC9822D3A8130087F0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DC9722D3A8130087F0EA /* AppDelegate.swift */; };
 		CFF9DC9A22D3A8150087F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DC9922D3A8150087F0EA /* Assets.xcassets */; };
 		CFF9DC9D22D3A8150087F0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DC9B22D3A8150087F0EA /* Main.storyboard */; };
+		CFF9DCD722D3A8850087F0EA /* SSDT-PLUG.aml in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCD522D3A8850087F0EA /* SSDT-PLUG.aml */; };
+		CFF9DCD822D3A8850087F0EA /* SSDT-GLAN.aml in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCD622D3A8850087F0EA /* SSDT-GLAN.aml */; };
+		CFF9DCDD22D3A88D0087F0EA /* BOOTx64.efi in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCDB22D3A88D0087F0EA /* BOOTx64.efi */; };
+		CFF9DCDE22D3A88D0087F0EA /* OpenCore.efi in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCDC22D3A88D0087F0EA /* OpenCore.efi */; };
+		CFF9DCE422D3A8980087F0EA /* HfsPlus.efi in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCE022D3A8980087F0EA /* HfsPlus.efi */; };
+		CFF9DCE522D3A8980087F0EA /* VirtualSmc.efi in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCE122D3A8980087F0EA /* VirtualSmc.efi */; };
+		CFF9DCE622D3A8980087F0EA /* ApfsDriverLoader.efi in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCE222D3A8980087F0EA /* ApfsDriverLoader.efi */; };
+		CFF9DCE722D3A8980087F0EA /* AptioMemoryFix.efi in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCE322D3A8980087F0EA /* AptioMemoryFix.efi */; };
+		CFF9DCEE22D3A89F0087F0EA /* Lilu.kext in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCE922D3A89F0087F0EA /* Lilu.kext */; };
+		CFF9DCEF22D3A89F0087F0EA /* AppleALC.kext in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCEA22D3A89F0087F0EA /* AppleALC.kext */; };
+		CFF9DCF022D3A89F0087F0EA /* WhateverGreen.kext in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCEB22D3A89F0087F0EA /* WhateverGreen.kext */; };
+		CFF9DCF122D3A89F0087F0EA /* RealtekRTL8111.kext in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCEC22D3A89F0087F0EA /* RealtekRTL8111.kext */; };
+		CFF9DCF222D3A89F0087F0EA /* VirtualSMC.kext in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCED22D3A89F0087F0EA /* VirtualSMC.kext */; };
+		CFF9DD0022D3A8D90087F0EA /* Z370_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCF922D3A8D90087F0EA /* Z370_config.plist */; };
+		CFF9DD0122D3A8D90087F0EA /* C602_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCFB22D3A8D90087F0EA /* C602_config.plist */; };
+		CFF9DD0222D3A8D90087F0EA /* Z97_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DCFE22D3A8D90087F0EA /* Z97_config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		CFF9DC9C22D3A8150087F0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFF9DC9E22D3A8150087F0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFF9DC9F22D3A8150087F0EA /* Aeon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aeon.entitlements; sourceTree = "<group>"; };
+		CFF9DCD522D3A8850087F0EA /* SSDT-PLUG.aml */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SSDT-PLUG.aml"; sourceTree = "<group>"; };
+		CFF9DCD622D3A8850087F0EA /* SSDT-GLAN.aml */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SSDT-GLAN.aml"; sourceTree = "<group>"; };
+		CFF9DCDB22D3A88D0087F0EA /* BOOTx64.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = BOOTx64.efi; sourceTree = "<group>"; };
+		CFF9DCDC22D3A88D0087F0EA /* OpenCore.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenCore.efi; sourceTree = "<group>"; };
+		CFF9DCE022D3A8980087F0EA /* HfsPlus.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = HfsPlus.efi; sourceTree = "<group>"; };
+		CFF9DCE122D3A8980087F0EA /* VirtualSmc.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = VirtualSmc.efi; sourceTree = "<group>"; };
+		CFF9DCE222D3A8980087F0EA /* ApfsDriverLoader.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = ApfsDriverLoader.efi; sourceTree = "<group>"; };
+		CFF9DCE322D3A8980087F0EA /* AptioMemoryFix.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = AptioMemoryFix.efi; sourceTree = "<group>"; };
+		CFF9DCE922D3A89F0087F0EA /* Lilu.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = Lilu.kext; sourceTree = "<group>"; };
+		CFF9DCEA22D3A89F0087F0EA /* AppleALC.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = AppleALC.kext; sourceTree = "<group>"; };
+		CFF9DCEB22D3A89F0087F0EA /* WhateverGreen.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = WhateverGreen.kext; sourceTree = "<group>"; };
+		CFF9DCEC22D3A89F0087F0EA /* RealtekRTL8111.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = RealtekRTL8111.kext; sourceTree = "<group>"; };
+		CFF9DCED22D3A89F0087F0EA /* VirtualSMC.kext */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.kernel-extension"; path = VirtualSMC.kext; sourceTree = "<group>"; };
+		CFF9DCF922D3A8D90087F0EA /* Z370_config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Z370_config.plist; sourceTree = "<group>"; };
+		CFF9DCFB22D3A8D90087F0EA /* C602_config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = C602_config.plist; sourceTree = "<group>"; };
+		CFF9DCFE22D3A8D90087F0EA /* Z97_config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Z97_config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,11 @@
 		CFF9DC9622D3A8130087F0EA /* Aeon */ = {
 			isa = PBXGroup;
 			children = (
+				CFF9DCD422D3A8850087F0EA /* ACPI_Examples */,
+				CFF9DCD922D3A88D0087F0EA /* Boot_Picker */,
+				CFF9DCDF22D3A8980087F0EA /* Drivers */,
+				CFF9DCE822D3A89F0087F0EA /* Kexts */,
+				CFF9DCF322D3A8D90087F0EA /* Test_Builds */,
 				CFF9DC9722D3A8130087F0EA /* AppDelegate.swift */,
 				CFF9DC9922D3A8150087F0EA /* Assets.xcassets */,
 				CFF9DC9B22D3A8150087F0EA /* Main.storyboard */,
@@ -58,6 +95,142 @@
 				CFF9DC9F22D3A8150087F0EA /* Aeon.entitlements */,
 			);
 			path = Aeon;
+			sourceTree = "<group>";
+		};
+		CFF9DCD422D3A8850087F0EA /* ACPI_Examples */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCD522D3A8850087F0EA /* SSDT-PLUG.aml */,
+				CFF9DCD622D3A8850087F0EA /* SSDT-GLAN.aml */,
+			);
+			name = ACPI_Examples;
+			path = ../../ACPI_Examples;
+			sourceTree = "<group>";
+		};
+		CFF9DCD922D3A88D0087F0EA /* Boot_Picker */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCDA22D3A88D0087F0EA /* OpenCore */,
+			);
+			name = Boot_Picker;
+			path = ../../Boot_Picker;
+			sourceTree = "<group>";
+		};
+		CFF9DCDA22D3A88D0087F0EA /* OpenCore */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCDB22D3A88D0087F0EA /* BOOTx64.efi */,
+				CFF9DCDC22D3A88D0087F0EA /* OpenCore.efi */,
+			);
+			path = OpenCore;
+			sourceTree = "<group>";
+		};
+		CFF9DCDF22D3A8980087F0EA /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCE022D3A8980087F0EA /* HfsPlus.efi */,
+				CFF9DCE122D3A8980087F0EA /* VirtualSmc.efi */,
+				CFF9DCE222D3A8980087F0EA /* ApfsDriverLoader.efi */,
+				CFF9DCE322D3A8980087F0EA /* AptioMemoryFix.efi */,
+			);
+			name = Drivers;
+			path = ../../Drivers;
+			sourceTree = "<group>";
+		};
+		CFF9DCE822D3A89F0087F0EA /* Kexts */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCE922D3A89F0087F0EA /* Lilu.kext */,
+				CFF9DCEA22D3A89F0087F0EA /* AppleALC.kext */,
+				CFF9DCEB22D3A89F0087F0EA /* WhateverGreen.kext */,
+				CFF9DCEC22D3A89F0087F0EA /* RealtekRTL8111.kext */,
+				CFF9DCED22D3A89F0087F0EA /* VirtualSMC.kext */,
+			);
+			name = Kexts;
+			path = ../../Kexts;
+			sourceTree = "<group>";
+		};
+		CFF9DCF322D3A8D90087F0EA /* Test_Builds */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCF422D3A8D90087F0EA /* Z170 */,
+				CFF9DCF522D3A8D90087F0EA /* Z87 */,
+				CFF9DCF622D3A8D90087F0EA /* X99 */,
+				CFF9DCF722D3A8D90087F0EA /* Z270 */,
+				CFF9DCF822D3A8D90087F0EA /* Z370 */,
+				CFF9DCFA22D3A8D90087F0EA /* C602 */,
+				CFF9DCFC22D3A8D90087F0EA /* X299 */,
+				CFF9DCFD22D3A8D90087F0EA /* Z97 */,
+				CFF9DCFF22D3A8D90087F0EA /* Z390 */,
+			);
+			name = Test_Builds;
+			path = ../../Test_Builds;
+			sourceTree = "<group>";
+		};
+		CFF9DCF422D3A8D90087F0EA /* Z170 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Z170;
+			sourceTree = "<group>";
+		};
+		CFF9DCF522D3A8D90087F0EA /* Z87 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Z87;
+			sourceTree = "<group>";
+		};
+		CFF9DCF622D3A8D90087F0EA /* X99 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = X99;
+			sourceTree = "<group>";
+		};
+		CFF9DCF722D3A8D90087F0EA /* Z270 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Z270;
+			sourceTree = "<group>";
+		};
+		CFF9DCF822D3A8D90087F0EA /* Z370 */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCF922D3A8D90087F0EA /* Z370_config.plist */,
+			);
+			path = Z370;
+			sourceTree = "<group>";
+		};
+		CFF9DCFA22D3A8D90087F0EA /* C602 */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCFB22D3A8D90087F0EA /* C602_config.plist */,
+			);
+			path = C602;
+			sourceTree = "<group>";
+		};
+		CFF9DCFC22D3A8D90087F0EA /* X299 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = X299;
+			sourceTree = "<group>";
+		};
+		CFF9DCFD22D3A8D90087F0EA /* Z97 */ = {
+			isa = PBXGroup;
+			children = (
+				CFF9DCFE22D3A8D90087F0EA /* Z97_config.plist */,
+			);
+			path = Z97;
+			sourceTree = "<group>";
+		};
+		CFF9DCFF22D3A8D90087F0EA /* Z390 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Z390;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,8 +291,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF9DCEE22D3A89F0087F0EA /* Lilu.kext in Resources */,
+				CFF9DCD722D3A8850087F0EA /* SSDT-PLUG.aml in Resources */,
+				CFF9DCDE22D3A88D0087F0EA /* OpenCore.efi in Resources */,
+				CFF9DCF222D3A89F0087F0EA /* VirtualSMC.kext in Resources */,
+				CFF9DD0022D3A8D90087F0EA /* Z370_config.plist in Resources */,
+				CFF9DCE522D3A8980087F0EA /* VirtualSmc.efi in Resources */,
+				CFF9DCF122D3A89F0087F0EA /* RealtekRTL8111.kext in Resources */,
+				CFF9DCE722D3A8980087F0EA /* AptioMemoryFix.efi in Resources */,
 				CFF9DC9A22D3A8150087F0EA /* Assets.xcassets in Resources */,
+				CFF9DD0122D3A8D90087F0EA /* C602_config.plist in Resources */,
+				CFF9DCF022D3A89F0087F0EA /* WhateverGreen.kext in Resources */,
+				CFF9DCD822D3A8850087F0EA /* SSDT-GLAN.aml in Resources */,
+				CFF9DCE622D3A8980087F0EA /* ApfsDriverLoader.efi in Resources */,
+				CFF9DCDD22D3A88D0087F0EA /* BOOTx64.efi in Resources */,
+				CFF9DCEF22D3A89F0087F0EA /* AppleALC.kext in Resources */,
+				CFF9DD0222D3A8D90087F0EA /* Z97_config.plist in Resources */,
 				CFF9DC9D22D3A8150087F0EA /* Main.storyboard in Resources */,
+				CFF9DCE422D3A8980087F0EA /* HfsPlus.efi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
