@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF28924422DA37E000B880D8 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF28924322DA37DF00B880D8 /* config.plist */; };
 		CFF9DC9822D3A8130087F0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9DC9722D3A8130087F0EA /* AppDelegate.swift */; };
 		CFF9DC9A22D3A8150087F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DC9922D3A8150087F0EA /* Assets.xcassets */; };
 		CFF9DC9D22D3A8150087F0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF9DC9B22D3A8150087F0EA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF28924322DA37DF00B880D8 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 		CFF45D5822D3AB2600256A36 /* SSDT-GLAN.aml */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SSDT-GLAN.aml"; sourceTree = "<group>"; };
 		CFF45D5922D3AB2600256A36 /* SSDT-PLUG.aml */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SSDT-PLUG.aml"; sourceTree = "<group>"; };
 		CFF45D5A22D3AB7200256A36 /* OpenCore.efi */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenCore.efi; sourceTree = "<group>"; };
@@ -48,9 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF28924222DA37C800B880D8 /* X299 */ = {
+			isa = PBXGroup;
+			children = (
+				CF28924322DA37DF00B880D8 /* config.plist */,
+			);
+			path = X299;
+			sourceTree = "<group>";
+		};
 		CFF45D2F22D3A9C700256A36 /* Test_Builds */ = {
 			isa = PBXGroup;
 			children = (
+				CF28924222DA37C800B880D8 /* X299 */,
 				CFF45D3022D3A9C700256A36 /* Z370 */,
 				CFF45D3222D3A9C700256A36 /* C602 */,
 				CFF45D3422D3A9C700256A36 /* Z97 */,
@@ -224,6 +235,7 @@
 			files = (
 				CFF9DC9A22D3A8150087F0EA /* Assets.xcassets in Resources */,
 				CFF9DC9D22D3A8150087F0EA /* Main.storyboard in Resources */,
+				CF28924422DA37E000B880D8 /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
